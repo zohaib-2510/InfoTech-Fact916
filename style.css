@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lumanosimo&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Lumanosimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Lumanosimo&display=swap');
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+.navbar {
+    height: 90px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+.logo {
+    margin-left: 35%;
+}
+/* .logo {
+    background-image: url("./kisspng-learning-educational-technology-apprendimento-onli-5b094e4fea0544.5071471415273365279586.png");
+    height: 50px;
+    background-size: cover;
+    width: 100%;
+} */
+
+.add-first {
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 15px;
+    font-family: 'Lumanosimo', cursive;
+    cursor: pointer;
+}
+.add-sec {
+    font-size: 1rem;
+margin-left: 3px;
+font-family: 'Lumanosimo', cursive;
+cursor: pointer;
+}
+.add-icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-address {
+    margin-right: 10%;
+}
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+border: none;
+}
+
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+}
+.search-icon {
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #fff;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+.nav-search:hover {
+    border: 2px solid white;
+}
+option {
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+button {
+    font-family: 'Lumanosimo', cursive;
+font-family: 'Montserrat', sans-serif;
+    width: 190px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    background-color: aqua;
+    color:black;
+    transition: 1.5s;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.ccccc a {
+    color: #000;
+    text-decoration: none;
+}
+button:hover {
+    color: rgb(255, 255, 0);
+    background-color: rgb(0, 128, 53);
+    transform: scale(1.2);
+
+}
+.nav-second {
+    cursor: pointer;
+}
+.nav-second:hover {
+    transition: 3s;
+    transition: 1.3s;
+  border-bottom: 2px solid white;
+}
+
+.nav-second i {
+    font-size: 1.8rem;
+   
+}
+.home-pg {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 230, 0);
+}
+.ccc {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.cxcx {
+    width: 400px;
+    height: 400px;
+    float: right;
+    padding-top: 50px;
+}
+
+h1,h2,.vvvvvvv{
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Lumanosimo', cursive;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    color: #fff;
+    padding-left: 20px;
+}
+
+
+h1 {
+    padding-top: 2.3%;
+    font-family: 'Indie Flower', cursive;
+font-family: 'Lumanosimo', cursive;
+font-family: 'Montserrat', sans-serif;
+font-size: 2.3rem;
+}
+.s1 {
+    color: rgb(255, 0, 76);
+    font-weight: 400;
+    border-bottom: 2px  solid black;
+    font-size: 3rem;
+}
+
+h2{
+    padding-top: 9%;
+}
+
+.s2 {
+    border-bottom: 2px  solid black;
+color: red;
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding-top: 20%;
+}
+.vvvvvvv {
+    padding-top: 20%;
+    padding-right: 32%;
+    text-align: center;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+h4 
+{
+    position: absolute;
+    padding-top: 30%;
+    padding-left: 40px;
+}
+
+.s3 {
+    font-size: 2.5rem;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Lumanosimo', cursive;
+    color: #0800ff;
+    border-bottom: 2.8px solid red;
+}
+
+.xxxxx {
+    padding-top: 10%;
+  
+   
+    
+}
+.xxxxx a {
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Lumanosimo', cursive;
+
+}
+.nav-second a {
+    color: #fff;
+    text-decoration: none;
+}
